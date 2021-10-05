@@ -22,8 +22,9 @@ header{
     border: 2px solid rgb(239, 255, 94);
     padding: 20px;
 }
+/*  
 nav {
-    background: rgb(28, 224, 103);
+    background: rgb(0, 255, 170);
     color: white;
 }
 nav li{
@@ -34,6 +35,46 @@ nav li{
     color: white;
     font: bold 14px Verdara;
 }
+nav ul li a:hover{ background:rgb(28, 224, 103) }
+*/
+ul#nav{
+    background: rgb(0, 255, 170);
+    width: 100%;
+    height:45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    margin:0;
+    display:block;
+    list-style:none;
+    border-radius:10px;
+}
+#home a{
+    /* background:#09f; */
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+#home a:hover{ border-top-left-radius:10px; border-bottom-left-radius:10px; }
+nav ul li a{
+    font-family:cursive;
+    font-size:18px;
+
+    line-height:25px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    float:left;
+    text-decoration:none;
+    color:#fff;
+    text-shadow:0px 1px 5px #333;
+    border-left:solid 1px #006;
+    border-right:solid 1px #00f;
+    border-left:solid 1px rgba(255,255,255,0.3);
+    border-right:solid 1px rgba(255,255,255,0.1);
+}
+nav ul li a:hover{ background:rgb(28, 224, 103) }
+
 #sec_wrapper{
     display: -webkit-box;
     -webkit-box-orient: horizontal;
