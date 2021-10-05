@@ -3,7 +3,7 @@
     padding: 0px;
     font: 12px Verdana;
 }
-h1{ font: bold 20px Verdana; }
+h1{ font: bold 20px cursive; }
 h2{ font: bold 14px Verdana; }
 body{
     width: 100%;
@@ -18,12 +18,12 @@ body{
     -webkit-box-flex: 1;
 }
 header{
-    background: green;
-    border: 2px solid red;
+    background: rgb(0, 255, 170);
+    border: 2px solid rgb(239, 255, 94);
     padding: 20px;
 }
 nav {
-    background: blue;
+    background: rgb(28, 224, 103);
     color: white;
 }
 nav li{
@@ -37,7 +37,7 @@ nav li{
 #sec_wrapper{
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-    border: 5px solid red;
+    border: 3px solid rgb(239, 255, 94);
 }
 section{
     border: 2px solid blue;
